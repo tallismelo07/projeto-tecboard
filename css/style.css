@@ -40,7 +40,6 @@ body {
 h1 {
     font-size: 64px;
     font-family: "Unbounded", sans-serif;
-    font-weight: bold;
     text-align: center;
     margin-top: 60px;
 }
@@ -50,7 +49,8 @@ p {
     font-size: 24px;
     font-family: "Poppins", sans-serif;
     text-align: center;
-    margin-top: 24px;
+    margin: 24px auto 0;
+    width: 792px;
 }
 
 
@@ -92,7 +92,47 @@ a:hover {
 .img-produto {
     display: block;
     margin: 0 auto;
-    height: 500px;
-    width: 900px;
+    height: 446px;
+    width: 792px;
 }
+
+
+
+@media (max-width: 768px) {
+   .logo {
+        margin: 65px 0 0 60px;
+    }
+
+    p {
+        width: 648px;
+    }
+   
+}
+
+
+@media (max-width: 375px) {
+   .logo {
+    margin: 32px 0 0 16px;
+   }
+
+   h1{
+    font-size: 40px;
+   }
+
+   p{
+    font-size: 20px;
+    width: 340px;
+   }
+
+   a {
+    font-size: 20px;
+    width: 251px;
+   }
+
+   .img-produto {
+    width: 340px;
+    height: 230px;
+   }
+}
+
 
