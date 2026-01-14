@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+
+
+@font-face {
+    font-family: "Unbounded";
+    src: url("../fonts/Unbounded-Bold.ttf") format("truetype");
+    font-weight: 700;   
+}
+
+
+
+
+:root {
+    --roxo-destaque: #9747ff;
+    --roxo-hover: #8233e8;
+    --offwhite: #ffffff;
+    --grafite: #232323;
+    --fundo-dark: #0e1014;
+    --fundo-light: #0e1014;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--fundo-dark);
+    color: var(--offwhite);
+}
+
+
+h1 {
+    font-size: 85px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.texto_destaque {
+    color: var(--roxo-destaque);
+}
+
+a {
+    color: var(--offwhite);
+    text-decoration: none;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+}
+
